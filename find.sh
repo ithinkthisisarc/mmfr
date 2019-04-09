@@ -5,7 +5,7 @@ if [[ -z "$NAME" ]]; then
     exit 1
 fi
 
-echo -n "Updating package list..."
+echo "Updating package list..."
 curl "monarrksmysteriousfilerepo.glitch.me/links/names.info" > packages.sh
 echo "OK"
 
