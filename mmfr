@@ -1,0 +1,24 @@
+DIRECTORY=$( pwd )
+DEST="$3"
+LINK="unknown"
+CMD=$1
+
+# if there's no name provided for the zip, make it ".out"
+if [[ -z $NAME ]]; then
+	DEST=".out"
+fi
+
+# if there's no command provided, exit
+if [[ -z "$CMD" ]]; then
+	printf "Please enter one of the following commands.\n\tget: download a package\n\tfind: generate a link to the package\n"
+	exit 1
+fi
+
+case $CMD in
+	"get") ./get.sh $DEST $2;;
+
+	"find") ./find.sh $2;;
+
+	*) echo "Argument '$1' is invalid"
+	   exit 1;;
+esac
