@@ -5,12 +5,14 @@ Monarrk's Mysterious File Repo
 A simple and terrible package manager.
 
 # Usage
+To update the package list:
+	mmfr update
+
 To find a file:
 	mmfr find keyword
-**if this is your first time**, make sure to let it upadate the packages on your machine.
 
 To download a file:
-(note, must have synced packages on your machine with `mmfr find` first)
+(note, must have synced packages on your machine with `mmfr update` first)
 	mmfr get ${package}
 This will add the package to mmfr/bin.
 
