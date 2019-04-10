@@ -2,7 +2,7 @@
 Monarrk's Mysterious File Repo
 
 # What is This?
-A simple and terrible package manager.
+A simple package manager mostly made for messing around during my math class.
 
 # Usage
 To update the package list:
