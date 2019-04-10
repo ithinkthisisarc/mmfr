@@ -7,16 +7,16 @@ A simple and terrible package manager.
 # Usage
 To update the package list:
 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`mmfr update`
+	`mmfr update`
 
 To find a file:
 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`mmfr find keyword`
+	`mmfr find keyword`
 
 To download a file:
 (note, must have synced packages on your machine with `mmfr update` first)
 
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`mmfr get ${package}`
+	`mmfr get ${package}`
 	
 This will add the package to mmfr/bin.
 
