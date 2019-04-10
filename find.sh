@@ -5,11 +5,17 @@ if [[ -z "$NAME" ]]; then
     exit 1
 fi
 
-echo "Updating package list..."
-curl "monarrksmysteriousfilerepo.glitch.me/links/names.info" > packages.sh
-echo "OK"
+echo -n "Update packages? [y/N]: "
+read input
+if [[ "$input" = "y" ]]; then
+	echo "Updating package list..."
+	curl "monarrksmysteriousfilerepo.glitch.me/links/names.info" > packages.sh
+	echo "OK"
+fi
 
 echo "Searching for file '$1'"
 PKG=$( grep -F "$1" packages.sh )
 echo "Here's what we found."
-echo "$PKG"
+printf " ===> $PKG\n"
+
+
