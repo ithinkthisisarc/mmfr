@@ -11,6 +11,6 @@ To find a file:
 
 To download a file:
 (note, must have synced packages on your machine with `mmfr find` first)
-	mmfr get ${link}
+	mmfr get ${package}
 This will add the package to mmfr/bin.
 
