@@ -1,6 +1,5 @@
 DIRECTORY=$( pwd )
 DEST="$3"
-LINK="unknown"
 CMD=$1
 
 # if there's no name provided for the zip, make it ".out"
@@ -18,6 +17,8 @@ case $CMD in
 	"get") ./get.sh $DEST $2;;
 
 	"find") ./find.sh $2;;
+
+	"update") ./update.sh;;
 
 	*) echo "Argument '$1' is invalid"
 	   exit 1;;
