@@ -1,0 +1,7 @@
+echo 'export MMFRSRC="~/mmfr"' >> ~/.profile
+echo 'export PATH="$PATH:$MMFRSRC:$MMFRSRC/bin"' >> ~/.profile
+
+echo "Updating package list!"
+./update.sh
+
+printf "\nNow restart your terminal.\n"
