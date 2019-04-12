@@ -19,6 +19,8 @@ case $CMD in
 	"find") $MMFRSRC/find.sh $2;;
 
 	"update") $MMFRSRC/update.sh;;
+	
+	"remove") $MMFRSRC/remove.sh $2;;
 
 	*) echo "Argument '$1' is invalid"
 	   exit 1;;
