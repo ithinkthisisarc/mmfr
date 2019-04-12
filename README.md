@@ -2,7 +2,7 @@
 Monarrk's Mysterious File Repo
 
 # What is This?
-A simple package manager mostly made for messing around during my math class.
+A simple package manager mostly made for messing around during my math class that has grown way too much.
 
 # Setup
 Start by editing your `~/.profile` to include the line `export $MMFRSRC="~/path/to/mmfr`
