@@ -14,11 +14,11 @@ if [[ -z "$CMD" ]]; then
 fi
 
 case $CMD in
-	"get") ./get.sh $DEST $2;;
+	"get") $MMFRSRC/get.sh $DEST $2;;
 
-	"find") ./find.sh $2;;
+	"find") $MMFRSRC/find.sh $2;;
 
-	"update") ./update.sh;;
+	"update") $MMFRSRC/update.sh;;
 
 	*) echo "Argument '$1' is invalid"
 	   exit 1;;

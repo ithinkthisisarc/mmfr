@@ -1,1 +1,0 @@
-this is just here to make sure the "bin" directory exists. You can delete it if you want :)

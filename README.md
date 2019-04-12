@@ -4,6 +4,12 @@ Monarrk's Mysterious File Repo
 # What is This?
 A simple package manager mostly made for messing around during my math class.
 
+# Setup
+Start by editing your `~/.profile` to include the line `export $MMFRSRC="~/path/to/mmfr`
+
+Next, run add mmfr to your path by adding the line `export PATH=$PATH:$MMFRSRC:$MMFRSRC/bin`
+
+After that, run `mmfr update` to sync your packages!
 # Usage
 To update the package list:
 
