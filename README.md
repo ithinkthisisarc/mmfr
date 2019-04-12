@@ -18,6 +18,7 @@ To update the package list:
 To find a file:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`mmfr find keyword`
+If it returns a link, the package exists. If it returns nothing, it does not.
 
 To download a file:
 (note, must have synced packages on your machine with `mmfr update` first)
