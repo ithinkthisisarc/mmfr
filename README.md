@@ -7,6 +7,14 @@ A simple package manager mostly made for messing around during my math class tha
 # Setup
 Run `./configure`.
 
+Because this doesn’t always work, you can also manually run the instructions within the script.
+
+Add the lines `export MMFRSRC=“/path/to/mmfr”`
+
+`export PATH=$PATH:$MMFRSRC:$MMFRSRC/bin`
+
+And run `mmfr update`
+
 After that, run `mmfr update` to sync your packages!
 # Usage
 To update the package list:
