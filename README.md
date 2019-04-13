@@ -15,7 +15,6 @@ Add the lines `export MMFRSRC=“/path/to/mmfr”`
 
 And run `mmfr update`
 
-After that, run `mmfr update` to sync your packages!
 # Usage
 To update the package list:
 
