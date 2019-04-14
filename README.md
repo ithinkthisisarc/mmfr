@@ -7,13 +7,15 @@ A simple package manager mostly made for messing around during my math class tha
 # Setup
 Run `./configure`.
 
-Because this doesn’t always work, you can also manually run the instructions within the script.
+Because this was designed for mac and doesn’t always work, you can also manually run the instructions. You do that as follows:
 
-Add the lines `export MMFRSRC=“/path/to/mmfr”`
+Add the following lines to your bash configuration file (i.e. .bashrc or .profile)
+
+`export MMFRSRC=“/path/to/mmfr”`
 
 `export PATH=$PATH:$MMFRSRC:$MMFRSRC/bin`
 
-And run `mmfr update`
+Then restart your terminal and run `mmfr update`
 
 # Usage
 To update the package list:
