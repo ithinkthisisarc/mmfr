@@ -31,7 +31,10 @@ To download a file:
 (note, must have synced packages on your machine with `mmfr update` first)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`mmfr get foo`
+This will add the package to mmfr/bin.
+
 
 To remove a package:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`mmfr remove bar`	
-This will add the package to mmfr/bin.
+
